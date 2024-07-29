@@ -1,0 +1,9 @@
+city='天津'
+address='河南省安阳市'
+print(city)
+print(address)
+city1="安阳"
+email='''主题：我爱你
+收件人：dzm
+手机号：13849244653'''
+print(email)

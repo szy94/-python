@@ -1,0 +1,27 @@
+#第一种创建字典的方式
+d={10:'cat',20:'dog',30:'pet',20:'zoo'}
+print(d)#key相同时，最后出现的key相同的value值进行了覆盖
+##第二种创建字典的方式zip函数
+lst1=[10,20,30,40]
+lst2=['cat','dog','pet','zoo','car']
+zip1=zip(lst1,lst2)
+print(zip)
+#print(list(zip1))
+d=dict(zip1)
+print(d)
+#第三种创建字典的方式
+d=dict(cat=10,dog=20)#左侧cat是key，右侧是值
+print(d)
+t=(10,20,30)#元组是不可变数据类型，不能insert，pop。remove
+print({t:10})#key必须是不可变数据类型
+lst=[10,20,30]#列表是可变数据类型，不能做字典的key
+print(lst)
+#print({lst:10})
+#列表，元组，字典，集合都属于序列，因此都能进行max，min，，len等操作
+print(len(d))
+print(max(d))
+print(min(d))
+#字典的删除
+del d
+print(d)
+#字典中的键是无序的

@@ -1,0 +1,14 @@
+s='HelloWorld'
+s1=s[0:5:2]#从0开始，到5结束，不包括5
+print(s1)
+s2=s[:5:2]#默认从0开始
+print(s2)
+print(s[:5:2])
+print(s[:5:])
+print(s[:5:1])
+print(s[::])
+print(s[0::1])
+'''
+start如果不写默认为0
+end如果不写默认为len（x）
+step如果不写默认为1'''

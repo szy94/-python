@@ -1,0 +1,9 @@
+x=True
+print(x)
+print(type(x))
+print(x+10)
+print(False+10)
+print('-'*100)
+print(bool(18))
+print(bool(0))
+print('北京欢迎您')

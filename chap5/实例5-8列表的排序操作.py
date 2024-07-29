@@ -1,0 +1,15 @@
+lst=[4,56,3,5,8,55,69,87,123]
+lst.sort()
+print(lst)
+lst.sort(reverse=True)
+print(lst)
+#
+sorted(lst)
+print(lst)
+lst1=['cat','Cat','china']
+lst1.sort()#原地排序
+print(lst1)
+lst1.sort(reverse=True)
+print(lst1)
+lst1.sort(key=str.lower)
+print(lst1)

@@ -1,0 +1,12 @@
+a=100#变量a，值为100
+b=50
+print(90)
+print(a)
+print(b)
+print(a+b)
+print(a*b)
+print(a-b)
+print('北京欢迎您！')
+print("北京欢迎你！")
+print('''北京欢迎你！''')
+print("""北京欢迎您！""")#输出字符串要用单引号，双引号，三引号，三个双引号
